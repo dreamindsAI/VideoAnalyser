@@ -10,4 +10,5 @@ wheels/
 .venv
 
 sample_data/
+notebooks/save_dir/
 .DS_Store
