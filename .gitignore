@@ -12,3 +12,4 @@ wheels/
 sample_data/
 notebooks/save_dir/
 .DS_Store
+.env
