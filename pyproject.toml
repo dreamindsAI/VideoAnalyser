@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "chromadb>=0.6.3",
     "ffmpeg-python>=0.2.0",
     "geopy>=2.4.1",
     "groq>=0.20.0",
@@ -12,6 +13,9 @@ dependencies = [
     "pathlib>=1.0.1",
     "pydantic>=2.11.1",
     "pydantic-ai>=0.0.46",
+    "sentence-transformers>=4.0.1",
+    "streamlit>=1.44.0",
+    "tqdm>=4.67.1",
 ]
 
 [dependency-groups]
@@ -19,3 +23,7 @@ dev = [
     "jupyter>=1.1.1",
     "python-dotenv>=1.1.0",
 ]
+
+[tool.uv.scripts]
+app = "streamlit run src/video_analyser/main.py"
+
