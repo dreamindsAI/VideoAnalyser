@@ -11,5 +11,7 @@ wheels/
 
 sample_data/
 notebooks/save_dir/
+src/video_analyser/temp
+src/video_analyser/storage
 .DS_Store
 .env
